@@ -74,7 +74,7 @@ const WORK_HISTORY = [
   {
     year: '2026',
     experience:       'eGovPH Hackathon',
-    company:    'Backend Developer',
+    role:    'Backend Developer',
     is_current: false,
     description: 'Submitted E-Agapay, a centralized wallet for goverment use',
   },
