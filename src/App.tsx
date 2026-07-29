@@ -76,14 +76,14 @@ const WORK_HISTORY = [
     experience:       'eGovPH Hackathon',
     role:    'Backend Developer',
     is_current: false,
-    description: 'Submitted E-Agapay, a centralized wallet for goverment use',
+    description: 'Proposed E-Agapay, a centralized wallet for goverment use',
   },
   {
     year: '2025',
     experience:       'Mobile Dev Club',
     role:    'Club Leader',
     is_current: false,
-    description: 'Led and taught introduction to basic mobile development using React Native',
+    description: 'Led and taught an introduction to basic mobile development using React Native',
   },
   {
     year: '2024',
