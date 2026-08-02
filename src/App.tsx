@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import DitherShape from './DitherShape'
+import { MoveUpRight } from 'lucide-react';
 
 const PALETTE = {
   cream: '#F7F4EC',
@@ -138,15 +139,18 @@ function WorkPanel() {
           }}
         >
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: '0.4rem' }}>
-            <span style={{
+            <span className='flex flex-row' style={{
               fontFamily: "'Playfair Display', serif",
               fontSize: '1.25rem',
               fontWeight: 700,
               letterSpacing: '-0.02em',
-              color: hovered_project_name === project.name ? PALETTE.ink_primary : PALETTE.ink_deep,
+              color: hovered_project_name === project.name ? PALETTE.ink_deep : PALETTE.ink_primary,
               transition: 'color 0.2s',
             }}>
-              {project.name}
+              <a href={project.link} target="_blank" rel="noopener noreferrer">
+                {project.name}
+              </a>
+              <MoveUpRight style={{ width: 12, height: 12, marginLeft: 4, verticalAlign: 'text-bottom', color: hovered_project_name === project.name ? PALETTE.ink_deep : PALETTE.ink_primary,}} />
             </span>
             <span style={{ fontFamily: "'DM Mono', monospace", fontSize: '0.6rem', color: PALETTE.ink_mid }}>
               {project.year}
