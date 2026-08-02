@@ -2,12 +2,12 @@ import { useState, useEffect } from 'react'
 import DitherShape from './DitherShape'
 
 const PALETTE = {
-  cream:       '#F7F4EC',
-  ink_light:   '#C7D4E8',
-  ink_mid:     '#5E7FA3',
+  cream: '#F7F4EC',
+  ink_light: '#C7D4E8',
+  ink_mid: '#5E7FA3',
   ink_primary: '#2A4D7A',
-  ink_deep:    '#16283F',
-  shadow:      '#DCD5C4',
+  ink_deep: '#16283F',
+  shadow: '#DCD5C4',
 }
 
 
@@ -66,53 +66,53 @@ const SKILL_CATEGORIES = [
   { category: 'Backend Development', skills: ['FastAPI', 'Node.js'] },
   { category: 'Data Visualization', skills: ['D3.js', 'Power BI', 'Chart.js'] },
   { category: 'Data Science & AI', skills: ['NumPy', 'Pandas', 'Matplotlib', 'Scikit-learn'] },
-  { category: 'Tools & IDEs',  skills: ['VS Code', 'Git', 'Claude', 'Antigravity', 'Docker', 'Figma'] },
-  
+  { category: 'Tools & IDEs', skills: ['VS Code', 'Git', 'Claude', 'Antigravity', 'Docker', 'Figma'] },
+
 ]
 
 const WORK_HISTORY = [
   {
     year: '2026',
-    experience:       'eGovPH Hackathon',
-    role:    'Backend Developer',
+    experience: 'eGovPH Hackathon',
+    role: 'Backend Developer',
     is_current: false,
-    description: 'Proposed E-Agapay, a centralized wallet for goverment use. A natural extension for eGovPH',
+    description: 'Proposed E-Agapay, a centralized wallet for goverment use. A natural extension of eGovPH',
   },
   {
     year: '2025',
-    experience:       'Mobile Dev Club',
-    role:    'Club Leader',
+    experience: 'Mobile Dev Club',
+    role: 'Club Leader',
     is_current: false,
     description: 'Led and taught an introduction to basic mobile development using React Native',
   },
   {
     year: '2024',
-    experience:       'Academic Project: Alertres',
-    role:    'Mobile Developer',
+    experience: 'Academic Project: Alertres',
+    role: 'Mobile Developer',
     is_current: false,
     description: 'Designed an application for natural disasters and emergencies for Region III, Philippines',
   },
   {
     year: '2024',
-    experience:       'STI Codefest Hackathon - 1st Place',
-    role:    'Mobile Developer',
+    experience: 'STI Codefest Hackathon - 1st Place',
+    role: 'Mobile Developer',
     is_current: false,
     description: 'Designed and submitted another mobile Point of Sale (POS)',
   },
   {
     year: '2023',
-    experience:       'STI Codefest Hackathon',
-    role:    'Mobile Developer',
+    experience: 'STI Codefest Hackathon',
+    role: 'Mobile Developer',
     is_current: false,
     description: 'Designed and submitted a mobile Point of Sale (POS)',
   },
 ]
 
 const NAV_LINKS: { key: PanelKey; label: string }[] = [
-  { key: 'work',       label: 'Work' },
-  { key: 'skills',     label: 'Skills' },
+  { key: 'work', label: 'Work' },
+  { key: 'skills', label: 'Skills' },
   { key: 'experience', label: 'Experience' },
-  { key: 'contact',    label: 'Contact' },
+  { key: 'contact', label: 'Contact' },
 ]
 
 // ── Panel content components ──────────────────────────────────────────────────
@@ -273,8 +273,8 @@ function ExperiencePanel() {
 }
 
 const CONTACT_LINKS = [
-  { label: 'Email',    display_value: 'louienacion9@gmail.com',       href: 'mailto:louienacion9@gmail.com' },
-  { label: 'GitHub',   display_value: 'github.com/FrinceNacion',      href: 'https://github.com/FrinceNacion' },
+  { label: 'Email', display_value: 'louienacion9@gmail.com', href: 'mailto:louienacion9@gmail.com' },
+  { label: 'GitHub', display_value: 'github.com/FrinceNacion', href: 'https://github.com/FrinceNacion' },
   { label: 'LinkedIn', display_value: 'linkedin.com/in/frincenacion', href: 'https://www.linkedin.com/in/frincenacion/' },
   //{ label: 'Resume',   display_value: 'nacion.dev/resume.pdf',        href: '/resume.pdf' },
 ]
@@ -361,10 +361,10 @@ function ContactPanel() {
 // ── Panel registry ────────────────────────────────────────────────────────────
 
 const PANEL_CONTENT_MAP: Record<PanelKey, React.ReactNode> = {
-  work:       <WorkPanel />,
-  skills:     <SkillsPanel />,
+  work: <WorkPanel />,
+  skills: <SkillsPanel />,
   experience: <ExperiencePanel />,
-  contact:    <ContactPanel />,
+  contact: <ContactPanel />,
 }
 
 // ── App ───────────────────────────────────────────────────────────────────────
@@ -495,7 +495,7 @@ export default function App() {
                 margin: 0,
               }}>
                 CS undergrad building algorithm analyzers and visualization tools.
-                < br/> Open to internships and project-based opportunities.
+                < br /> Open to internships and project-based opportunities.
               </p>
             )}
           </div>
