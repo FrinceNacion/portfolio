@@ -40,9 +40,10 @@ const PROJECTS = [
   {
     name: 'Code Complexity Analyzer',
     year: '2026',
-    tags: ['Python', 'JavaScript', 'React'],
+    tags: ['Python', 'JavaScript', 'React', 'Bootstrap', 'CSS'],
     type: 'Developer Tool',
     description: 'A Python code quality and complexity analysis tool that measures maintainability metrics, builds call graphs, and predicts Big-O complexity using a machine learning model.',
+    link: 'https://code-complexity-analyze.vercel.app'
   },
   {
     name: 'Algorithm Complexity Analyzer',
@@ -50,13 +51,15 @@ const PROJECTS = [
     tags: ['HTML', 'JavaScript', 'CSS'],
     type: 'Developer Tool',
     description: 'An algorithm complexity analyzer that helps users evaluate and compare the efficiency of different algorithms by analyzing their time and space complexity. It provides a user-friendly interface for exploring algorithm behavior, saving results, and managing account-based history and verification features.',
+    link: 'https://frincenacion.github.io/algorithm-complexity-analyzer'
   },
   {
     name: 'Pathfinding Algorithm Playground',
     year: '2026',
-    tags: ['JavaScript', 'React', 'CSS'],
+    tags: ['JavaScript', 'React', 'Bootstrap', 'CSS'],
     type: 'Developer Tool',
     description: 'An interactive pathfinding algorithm playground that visualizes how different search and traversal algorithms navigate a grid. Users can watch each algorithm compute a path in real time, making it a useful tool for learning and comparing pathfinding strategies.',
+    link: 'https://frincenacion.github.io/pathfinding-algorithm-playground'
   },
 ]
 
