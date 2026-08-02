@@ -76,7 +76,7 @@ const WORK_HISTORY = [
     experience:       'eGovPH Hackathon',
     role:    'Backend Developer',
     is_current: false,
-    description: 'Proposed E-Agapay, a centralized wallet for goverment use',
+    description: 'Proposed E-Agapay, a centralized wallet for goverment use. A natural extension for eGovPH',
   },
   {
     year: '2025',
