@@ -78,7 +78,7 @@ const WORK_HISTORY = [
   {
     year: '2026',
     experience: 'UNESCO MIL Hackathon',
-    role: 'Backend Developer',
+    role: 'Game Designer & Developer',
     is_current: true,
     description: 'Collaborated on proposing Beyond The Headline, a web game that teaches users important Digital Literacy concepts and skillss. The project was submitted to the UNESCO MIL Hackathon 2026.',
   },
