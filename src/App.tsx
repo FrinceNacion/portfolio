@@ -62,6 +62,14 @@ const PROJECTS = [
     description: 'An interactive pathfinding algorithm playground that visualizes how different search and traversal algorithms navigate a grid. Users can watch each algorithm compute a path in real time, making it a useful tool for learning and comparing pathfinding strategies.',
     link: 'https://frincenacion.github.io/pathfinding-algorithm-playground'
   },
+  {
+    name: 'Movie Gallery API',
+    year: '2026',
+    tags: ['PHP', 'REST API'],
+    type: 'Developer Tool',
+    description: 'A REST API for a movie gallery application that provides endpoints for retrieving movie information and links for watching movies and series.',
+    link: 'https://github.com/FrinceNacion/movie-gallery-API'
+  },
 ]
 
 const SKILL_CATEGORIES = [
@@ -157,7 +165,7 @@ function WorkPanel() {
               <a href={project.link} target="_blank" rel="noopener noreferrer">
                 {project.name}
               </a>
-              <MoveUpRight style={{ width: 12, height: 12, marginLeft: 4, verticalAlign: 'text-bottom', color: hovered_project_name === project.name ? PALETTE.ink_deep : PALETTE.ink_primary,}} />
+              <MoveUpRight style={{ width: 12, height: 12, marginLeft: 4, verticalAlign: 'text-bottom', color: hovered_project_name === project.name ? PALETTE.ink_deep : PALETTE.ink_primary, }} />
             </span>
             <span style={{ fontFamily: "'DM Mono', monospace", fontSize: '0.6rem', color: PALETTE.ink_mid }}>
               {project.year}
