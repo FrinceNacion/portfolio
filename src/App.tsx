@@ -66,7 +66,7 @@ const PROJECTS = [
 
 const SKILL_CATEGORIES = [
   { category: 'Languages', skills: ['Python', 'Java', 'TypeScript', 'C#', 'PHP'] },
-  { category: 'Frontend', skills: ['React', 'TypeScript', 'Vite', 'Bootstrap', 'Tailwind'] },
+  { category: 'Frontend Development', skills: ['React', 'TypeScript', 'Vite', 'Bootstrap', 'Tailwind'] },
   { category: 'Backend Development', skills: ['FastAPI', 'Node.js'] },
   { category: 'Data Visualization', skills: ['D3.js', 'Power BI', 'Chart.js'] },
   { category: 'Data Science & AI', skills: ['NumPy', 'Pandas', 'Matplotlib', 'Scikit-learn'] },
@@ -77,10 +77,17 @@ const SKILL_CATEGORIES = [
 const WORK_HISTORY = [
   {
     year: '2026',
+    experience: 'UNESCO MIL Hackathon',
+    role: 'Backend Developer',
+    is_current: true,
+    description: 'Collaborated on proposing Beyond The Headline, a web game that teaches users important Digital Literacy concepts and skillss. The project was submitted to the UNESCO MIL Hackathon 2026.',
+  },
+  {
+    year: '2026',
     experience: 'eGovPH Hackathon',
     role: 'Backend Developer',
     is_current: false,
-    description: 'Proposed E-Agapay, a centralized wallet for goverment use. A natural extension of eGovPH',
+    description: 'Collaborated on proposing E-Agapay, a centralized wallet for goverment use. A natural extension of eGovPH',
   },
   {
     year: '2025',
