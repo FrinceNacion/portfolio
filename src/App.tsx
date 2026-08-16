@@ -41,7 +41,7 @@ const PROJECTS = [
   {
     name: 'Code Complexity Analyzer',
     year: '2026',
-    tags: ['Python', 'JavaScript', 'React', 'Bootstrap', 'CSS'],
+    tags: ['Python', 'JavaScript', 'React', 'Bootstrap', 'ML'],
     type: 'Developer Tool',
     description: 'A Python code quality and complexity analysis tool that measures maintainability metrics, builds call graphs, and predicts Big-O complexity using a machine learning model.',
     link: 'https://code-complexity-analyze.vercel.app'
