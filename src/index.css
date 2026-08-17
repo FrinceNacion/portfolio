@@ -53,10 +53,29 @@
 
 /* Selection */
 ::selection {
-  background: #C7D4E8;
-  color: #16283F;
+  background: #2A4D7A;
+  color: #F7F4EC;
+}
+
+[data-theme='dark'] ::selection {
+  background: #4F86C6;
+  color: #12161F;
 }
 
 html {
   scroll-behavior: smooth;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F7F4EC;
+  color: #16283F;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+[data-theme='dark'] body {
+  background-color: #12161F;
+  color: #E6EDF6;
+}
+
