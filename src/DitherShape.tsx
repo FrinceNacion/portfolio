@@ -259,7 +259,8 @@ export default function DitherShape({
     })
 
     return () => { p5_instance_ref.current?.remove() }
-  }, [size, dot_spacing, dot_radius, ink_color, speed_x, speed_y])
+  }, [size, dot_spacing, dot_radius, ink_color[0], ink_color[1], ink_color[2], speed_x, speed_y])
+
 
   return (
     <div
