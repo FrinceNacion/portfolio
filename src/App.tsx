@@ -162,14 +162,14 @@ const WORK_HISTORY = [
     year: '2026',
     experience: 'GCash imaGnation Hackathon',
     role: 'Researcher',
-    is_current: true,
+    is_current: false,
     description: 'Collaborated on proposing a concept solution that helps users allocate their finances and manage their budget efficiently using the GCash e-wallet. The project was submitted to the GCash imaGnation Hackathon 2026.',
   },
   {
     year: '2026',
     experience: 'UNESCO MIL Hackathon',
     role: 'Game Designer & Developer',
-    is_current: true,
+    is_current: false,
     description: 'Collaborated on proposing Beyond The Headline, a web game that teaches users Media and Digital Literacy concepts and skills. The project was submitted to the UNESCO MIL Hackathon 2026.',
   },
   {
