@@ -154,7 +154,7 @@ const SKILL_CATEGORIES = [
   { category: 'Backend Development', skills: ['FastAPI', 'Node.js'] },
   { category: 'Data Visualization', skills: ['D3.js', 'Power BI', 'Chart.js'] },
   { category: 'Data Science & AI', skills: ['NumPy', 'Pandas', 'Matplotlib', 'Scikit-learn'] },
-  { category: 'Tools & IDEs', skills: ['VS Code', 'Git', 'Claude', 'Antigravity', 'Docker', 'Figma'] },
+  { category: 'Tools & IDEs', skills: ['VS Code', 'Git', 'Claude', 'Antigravity', 'Docker', 'Figma', 'Pandas', 'Jupyter Notebook'] },
 ]
 
 const WORK_HISTORY = [
